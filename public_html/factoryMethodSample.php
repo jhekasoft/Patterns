@@ -11,6 +11,7 @@
 include 'FactoryMethod.php';
 
 $externalManager = new ExcelExternalManager();
+//$externalManager = new CSVExternalManager();
 
 echo $externalManager->getHeaderText() . '<br>';
 echo '<hr>';
