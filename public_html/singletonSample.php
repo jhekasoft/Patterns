@@ -1,11 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Singleton</title>
+</head>
+<body>
+
 <?php
 
 include 'Singleton.php';
 
 $singleton = Singleton::getInstance();
 
-$singleton->setProperty('name', 'MPHP is bad!');
-$singleton->setProperty('age', 80);
+$singleton->setProperty('name', 'Bill');
+$singleton->setProperty('age', 33);
 
 echo $singleton->getProperty('name') . '<br>';
 echo $singleton->getProperty('age');
@@ -19,6 +27,13 @@ echo $singleton2->getProperty('age');
 echo '<hr>';
 
 $singleton3 = Singleton::getInstance();
-$singleton->setProperty('name', 'MPHP is good! Revolution!');
+$singleton->setProperty('name', 'Steve');
 echo $singleton3->getProperty('name') . '<br>';
 echo $singleton3->getProperty('age');
+?>
+
+<div style="margin-top: 40px;">&nbsp;</div>
+<a href="index.php">&larr; All patterns</a>
+
+</body>
+</html>
