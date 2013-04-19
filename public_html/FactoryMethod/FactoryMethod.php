@@ -1,13 +1,13 @@
 <?php
 
+namespace FactoryMethod;
+
 abstract class ExternalManager
 {
 
     abstract function getHeaderText();
 
     abstract function getExporter();
-
-    abstract function getImporter();
 
     abstract function getFooterText();
 }
@@ -23,11 +23,6 @@ class ExcelExternalManager extends ExternalManager
     function getExporter()
     {
         return new ExcelExporter();
-    }
-
-    function getImporter()
-    {
-        return new ExcelImporter();
     }
 
     function getFooterText()
@@ -48,11 +43,6 @@ class CSVExternalManager extends ExternalManager
     function getExporter()
     {
         return new CSVExporter();
-    }
-
-    function getImporter()
-    {
-        return new CSVImporter();
     }
 
     function getFooterText()
@@ -84,32 +74,6 @@ class CSVExporter extends Exporter
     function export()
     {
         return "Exported to CSV.";
-    }
-
-}
-
-abstract class Importer
-{
-
-    abstract function import();
-}
-
-class ExcelImporter extends Importer
-{
-
-    function import()
-    {
-        return "Imported from Excel.";
-    }
-
-}
-
-class CSVImporter extends Importer
-{
-
-    function import()
-    {
-        return "Imported from CSV.";
     }
 
 }

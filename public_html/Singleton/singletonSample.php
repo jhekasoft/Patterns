@@ -33,7 +33,7 @@ echo $singleton3->getProperty('age');
 ?>
 
 <div style="margin-top: 40px;">&nbsp;</div>
-<a href="index.php">&larr; All patterns</a>
+<a href="../index.php">&larr; All patterns</a>
 
 </body>
 </html>

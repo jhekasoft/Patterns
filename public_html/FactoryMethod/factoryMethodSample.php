@@ -10,8 +10,8 @@
 
 include 'FactoryMethod.php';
 
-$externalManager = new ExcelExternalManager();
-//$externalManager = new CSVExternalManager();
+$externalManager = new FactoryMethod\ExcelExternalManager();
+//$externalManager = new FactoryMethod\CSVExternalManager();
 
 echo $externalManager->getHeaderText() . '<br>';
 echo '<hr>';
@@ -19,15 +19,12 @@ echo '<hr>';
 $exportResult = $externalManager->getExporter()->export();
 echo $exportResult . '<br>';
 
-$importResult = $externalManager->getImporter()->import();
-echo $importResult . '<br>';
-
 echo '<hr>';
 echo $externalManager->getFooterText() . '<br>';
 ?>
 
 <div style="margin-top: 40px;">&nbsp;</div>
-<a href="index.php">&larr; All patterns</a>
+<a href="../index.php">&larr; All patterns</a>
 
 </body>
 </html>
