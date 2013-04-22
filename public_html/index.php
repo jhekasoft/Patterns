@@ -9,6 +9,7 @@
 <a href="Singleton/singletonSample.php">Singleton</a><br />
 <a href="FactoryMethod/factoryMethodSample.php">Factory Method</a><br />
 <a href="AbstractFactory/abstractFactorySample.php">Abstract Factory</a> (<a href="AbstractFactoryAlternative/abstractFactoryAlternativeSample.php">alternative variant</a>)<br />
+<a href="Prototype/prototypeSample.php">Prototype</a><br />
 
 </body>
 </html>
