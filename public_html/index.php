@@ -12,6 +12,7 @@
 <a href="Prototype/prototypeSample.php">Prototype</a><br />
 <a href="Composite/CompositeIndex.php">Composite</a><br />
 <a href="Decorator/Decorator.php">Decorator</a><br />
+<a href="Strategy/index.php">Strategy</a><br />
 
 </body>
 </html>
