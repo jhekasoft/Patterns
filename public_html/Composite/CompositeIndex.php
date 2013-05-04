@@ -5,10 +5,11 @@
     <title>Patterns</title>
 </head>
 <body>
-<?php 
+<?php
 
+require_once 'CompositeUnit.php';
 require_once 'CompositeSoldier.php';
-require_once 'CompositeTank.php';    
+require_once 'CompositeTank.php';
 require_once 'CompositeArtillery.php';
 require_once 'CompositeArmy.php';
 
@@ -90,6 +91,9 @@ echo 'сила Красной Армии после манипуляций:&nbsp
 echo 'сила Резервных войск после манипуляций:&nbsp;&nbsp;&nbsp;&nbsp;' . $reserve->power().'<br/><br/>';
 
 ?>
+
+<div style="margin-top: 40px;">&nbsp;</div>
+<a href="../index.php">&larr; All patterns</a>
 
 </body>
 </html>

@@ -1,5 +1,0 @@
-127.0.0.1 - - [30/Apr/2013:14:47:55 +0300] "GET / HTTP/1.1" 200 550 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0"
-127.0.0.1 - - [30/Apr/2013:14:47:55 +0300] "GET /favicon.ico HTTP/1.1" 404 505 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0"
-127.0.0.1 - - [30/Apr/2013:14:47:55 +0300] "GET /favicon.ico HTTP/1.1" 404 505 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0"
-127.0.0.1 - - [30/Apr/2013:14:56:08 +0300] "GET / HTTP/1.1" 200 561 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0"
-127.0.0.1 - - [30/Apr/2013:14:56:12 +0300] "GET /Strategy/index.php HTTP/1.1" 200 580 "http://patterns.tima.lan/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:20.0) Gecko/20100101 Firefox/20.0"

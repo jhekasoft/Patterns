@@ -1,13 +1,11 @@
 <?php
 
-require_once 'CompositeUnit.php';
+class Soldier extends Unit
+{
 
-class Soldier extends Unit{
-    
-    function power(){
+    function power()
+    {
         return 5;
     }
-    
-}
 
-?>
+}

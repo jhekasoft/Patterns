@@ -1,13 +1,11 @@
 <?php
 
-require_once 'CompositeUnit.php';
+class Tank extends Unit
+{
 
-class Tank extends Unit{
-    
-    function power(){
+    function power()
+    {
         return 250;
     }
-    
-}
 
-?>
+}
