@@ -13,6 +13,7 @@
 <a href="Composite/CompositeIndex.php">Composite</a><br />
 <a href="Decorator/DecoratorIndex.php">Decorator</a><br />
 <a href="Strategy/StrategyIndex.php">Strategy</a><br />
+<a href="Facade/FacadeIndex.php">Facade</a> (<a href="Facade/WithoutFacadeIndex.php">Without Facade</a>)<br />
 
 </body>
 </html>

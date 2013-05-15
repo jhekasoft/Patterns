@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Abstract Factory</title>
+    <title>Strategy</title>
 </head>
 <body>
 
