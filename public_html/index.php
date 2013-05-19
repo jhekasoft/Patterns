@@ -14,6 +14,7 @@
 <a href="Decorator/DecoratorIndex.php">Decorator</a><br />
 <a href="Strategy/StrategyIndex.php">Strategy</a><br />
 <a href="Facade/FacadeIndex.php">Facade</a> (<a href="Facade/WithoutFacadeIndex.php">Without Facade</a>)<br />
+<a href="Observer/ObserverIndex.php">Observer</a><br />
 
 </body>
 </html>
