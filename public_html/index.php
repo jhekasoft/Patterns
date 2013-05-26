@@ -16,6 +16,7 @@
 <a href="Facade/FacadeIndex.php">Facade</a> (<a href="Facade/WithoutFacadeIndex.php">Without Facade</a>)<br />
 <a href="Observer/ObserverIndex.php">Observer</a><br />
 <a href="Visitor/VisitorIndex.php">Visitor</a><br />
+<a href="Command/CommandIndex.php">Command</a><br />
 
 </body>
 </html>
